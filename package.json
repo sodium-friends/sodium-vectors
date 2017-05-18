@@ -1,0 +1,21 @@
+{
+  "name": "sodium-vectors",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/sodium-vectors",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/sodium-vectors.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sodium-native": "^1.9.0",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "build": "node generate.js > data.json"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
